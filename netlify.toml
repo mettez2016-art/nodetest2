@@ -1,0 +1,9 @@
+[[edge_functions]]
+function = "main"
+path = "/main"
+
+[functions]
+	# Map the serverless function at netlify/functions/main.js to /api/main
+	command = ""
+	# Netlify's functions mapping can be done via `[[redirects]]` or leaving default
+	# For clarity, we'll document the intent; Netlify auto-maps functions from /api/<name>
